@@ -1,9 +1,4 @@
 # SIC/XE Assembler
-The Simplified Instructional Computer (also abbreviated SIC) is a hypothetical computer system introduced in System Software: An Introduction to Systems Programming, by Leland Beck.
-
-## Samples
-### Themes
-<img src="samples/screenshot-dark.png" width="425"/> <img src="samples/screenshot-light.png" width="425"/> 
 
 ## Operation Table
 |Mnemonic     |Format  |Opcode  |Effect                           |Notes
@@ -67,6 +62,3 @@ The Simplified Instructional Computer (also abbreviated SIC) is a hypothetical c
 |TIX m        |  3/4   |  2C    |X ← (X) + 1; (X) : (m..m+2)        |C
 |TIXR r1      |   2    |  B8    |X ← (X) + 1; (X) : (r1)            |C
 |WD m         |  3/4   |  DC    |Device specified by (m) ← (A)      |P
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
